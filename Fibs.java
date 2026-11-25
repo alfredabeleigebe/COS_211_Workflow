@@ -9,6 +9,11 @@ public class Fibs {
             j = z;
             System.out.println(z);
             n ++;
+            }
+        }
+    public static void main(String[] args) {
+        Fibs fib = new Fibs();
+        fib.whileloop();
         }
     }
 //    double inf = Double.POSITIVE_INFINITY;
